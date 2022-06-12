@@ -1,0 +1,79 @@
+body {
+  background-color: #14213d;
+}
+.first_flex {
+  display: flex;
+  background-color: #fca311;
+  justify-content: space-around;
+}
+p {
+  font-weight: bold;
+}
+
+/* google */
+#pos1 {
+  background-color: #ffffff;
+  width: 60px;
+  border-radius: 80px;
+  margin-left: 50%;
+  position: relative;
+  top: 155px;
+}
+#orange {
+  color: orange;
+}
+#red {
+  color: red;
+}
+sub {
+  color: whitesmoke;
+}
+/* end of google */
+/* search bar  */
+.searchBar {
+  position: relative;
+  width: 30px;
+  left: 36%;
+  top: 165px;
+}
+#searchicon {
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.searchBar input {
+  width: 350px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+#mic {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  left: 325px;
+  top: 8px;
+  cursor: pointer;
+}
+
+/* .title-icon items background  */
+#netnaija {
+  background-color: whitesmoke;
+}
+.title-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgb(229, 229, 229, 0.2);
+  width: 350px;
+  height: 100px;
+  justify-items: center;
+  padding-top: 20px;
+  position: absolute;
+  top: 350px;
+  left: 36.5%;
+}
